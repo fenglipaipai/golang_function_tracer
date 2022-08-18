@@ -52,7 +52,8 @@ func main() {
 ./golang_function_tracer -w explame/demo/demo.go 
 ```
 
- 当再次运行此函数时会打印出详细函数调用逻辑并且会有层次感的输出日志，配合grep 达到快速理解文件内函数调用逻辑。
+# 效果展示
+ 当再次运行此函数时会打印出详细函数调用逻辑并且会有层次感的输出日志，配合 `grep` 达到快速理解文件内函数调用逻辑。
 ```golang
 go run  explame/demo/demo.go                                                                           
 
