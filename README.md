@@ -50,6 +50,9 @@ func main() {
 
 ```
 ./golang_function_tracer -w explame/demo/demo.go 
+
+#记得运行 go mod tidy
+
 ```
 
 # 效果展示
